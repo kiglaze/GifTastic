@@ -38,7 +38,7 @@ $(document).ready(function() {
 		if($(".gif-" + gihpySearchTerm).length > 0) {
 			$(".gif-" + gihpySearchTerm).show();
 		} else {
-			var ajaxUrl = "http://api.giphy.com/v1/gifs/search?q=" + gihpySearchTerm + "&api_key=" + API_KEY + "&limit=" + LIMIT;
+			var ajaxUrl = "https://api.giphy.com/v1/gifs/search?q=" + gihpySearchTerm + "&api_key=" + API_KEY + "&limit=" + LIMIT;
 			var xhr = $.get(ajaxUrl);
 			xhr.done(function(response) {
 				var responseData = response.data;
