@@ -1,0 +1,7 @@
+.btn, .search-gifs-button {
+	background-color: #c9e5cf;
+	text-decoration: none;
+}
+.search-gifs-button.active {
+	background-color: #9ccea5;
+}
