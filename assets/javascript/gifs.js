@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var currentButtonValues = ["dove", "turtle", "ostrich"];
+	var currentButtonValues = ["elephant", "swan", "dove", "turtle", "ostrich"];
 	const API_KEY = "69777a707ff64e1c8accdcc450d9c54c";
 	const LIMIT = 5;
 	for(var i = 0; i < currentButtonValues.length; i++) {
